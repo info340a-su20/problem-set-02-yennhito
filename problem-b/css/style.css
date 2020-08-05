@@ -15,16 +15,21 @@ g circle.small {
       fill: #573d29;
 }
 
-g.contained, circle, rect{
+g.contained circle {
     fill: #c0c0c0;
 }
 
-path#interactive{
+g.contained rect {
+    fill: #c0c0c0;
+    opacity: 1;
+}
+
+path#interactive {
     fill: #c0c0c0;
     width: 4px;
     stroke: #bd250d;
 }
 
 rect{
-    background-color: rgba(0,0,0,0);
+    opacity: 0;
 }  
